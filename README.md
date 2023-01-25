@@ -23,7 +23,7 @@ Here is a brief description about the folder content:
 
 * [`representation`](./representation): Jupyter Notebook to perform feature extraction from a specific layer of pre-trained ElemNet model. We have also provided the code to convert chemical formula of a compound into elemental fractions and physical attributes.
 
-* [`prediction`](./prediction): Jupyter Notebook to perform prediction using the pre-trained ElemNet model.
+* [`prediction`](./prediction): Jupyter Notebook to perform prediction using the pre-trained Neural Network model.
 
 ## Example Use
 
