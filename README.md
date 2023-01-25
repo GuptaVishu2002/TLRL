@@ -53,11 +53,14 @@ We have provided an example of customized datasets in the repository: `data/samp
 
 The code to run the Neural Network model is provided in the [`neuralnetwork`](./neuralnetwork) folder. In order to run the model you can pass a sample config file to the dl_regressors_tf2.py from inside of your neuralnetwork directory:
 
-`python dl_regressors_tf2.py --config_file sample/sample-run_example_tf2.config`
+`python dl_regressors_tf2.py --config_file sample/sample-run_example_tf2.config` (without TL+RL)
+`python dl_regressors_tf2_tlnewinput.py --config_file sample/sample-run_example_tf2.config` (with TL+RL)
 
 The config file defines all the related hyperparameters associated with the model training and model testing such as loss_type, training_data_path, val_data_path, test_data_path, label, input_type, etc. 
 
-For transfer learning, you need to set 'model_path' [e.g. `model/sample_model`]. 
+For setting pre-trained weight, you need to set it in 'model_path' [e.g. `model/sample_model`]. 
+
+To perform TL+RL using dl_regressors_tf2_tlnewinput.py set the 'pretrainedmodel_input' hyperparameter of the config file to the inputs used to train the pre-trained model
 
 To add customized input_type, please make changes to the `data_utils.py` as follows:
 
