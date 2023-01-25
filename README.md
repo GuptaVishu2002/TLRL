@@ -21,8 +21,6 @@ Here is a brief description about the folder content:
 
 * [`neuralnetwork`](./neuralnetwork): code for training Neural Network model from scratch or using a pretrained Neural Network model to perform transfer learning + representation learning.
 
-* [`data`](./data): 39 different datasets used for training ElemNet model.
-
 * [`representation`](./representation): Jupyter Notebook to perform feature extraction from a specific layer of pre-trained ElemNet model. We have also provided the code to convert chemical formula of a compound into elemental fractions and physical attributes.
 
 * [`prediction`](./prediction): Jupyter Notebook to perform prediction using the pre-trained ElemNet model.
