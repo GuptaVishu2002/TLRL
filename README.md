@@ -90,27 +90,3 @@ The above command runs a default task with an early stopping of 200 epochs on sm
 
 Note: Your <a href="https://machinelearningmastery.com/different-results-each-time-in-machine-learning/">results may vary</a> given the stochastic nature of the algorithm or evaluation procedure, the size of the dataset, the target property to perform the regression modelling for or differences in numerical precision. Consider running the example a few times and compare the average outcome.
 
-## Developer Team
-
-The code was developed by Vishu Gupta from the <a href="http://cucis.ece.northwestern.edu/">CUCIS</a> group at the Electrical and Computer Engineering Department at Northwestern University.
-
-## Publication
-
-
-## Acknowledgements
-
-The open-source implementation of CrossPropertyTL <a href="https://github.com/NU-CUCIS/CrossPropertyTL">here</a> provided significant initial inspiration for the structure of this code-base.
-
-## Disclaimer
-
-The research code shared in this repository is shared without any support or guarantee on its quality. However, please do raise an issue if you find anything wrong and I will try my best to address it.
-
-email: vishugupta2020@u.northwestern.edu
-
-Copyright (C) 2023, Northwestern University.
-
-See COPYRIGHT notice in top-level directory.
-
-## Funding Support
-
-This work was performed under the following financial assistance award 70NANB19H005 from U.S. Department of Commerce, National Institute of Standards and Technology as part of the Center for Hierarchical Materials Design (CHiMaD). Partial support is also acknowledged from Department of Energy (DOE) awards DE-SC0019358, DE-SC0021399, and NSF award CMMI-2053929.
